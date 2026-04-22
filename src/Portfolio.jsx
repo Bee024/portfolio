@@ -22,7 +22,6 @@ export default function Portfolio() {
     {
       title: "HAVEN",
       category: "Fintech × Social Impact",
-      year: "2024",
       description:
         "Parametric micro-insurance platform for India's 15M gig workers. Built with Node.js, PostgreSQL, Redis, and 7 ML models including GPS spoofing detection, AI image deforgery, and multilingual news classification. DevTrails 2026 hackathon project.",
       color: "#FF6B35",
@@ -32,7 +31,6 @@ export default function Portfolio() {
     {
       title: "Project Management API",
       category: "Backend Engineering",
-      year: "2024",
       description:
         "Production-grade REST API powering collaborative project management. Features include JWT authentication, role-based access control, hierarchical task management, file uploads, and secure endpoints. Built for scalability and team collaboration.",
       color: "#4ECDC4",
@@ -42,7 +40,6 @@ export default function Portfolio() {
     {
       title: "ShopEasy FAQ Bot",
       category: "Agentic AI",
-      year: "2024",
       description:
         "Intelligent FAQ system using LangGraph orchestration with RAG-based retrieval. Features multi-turn memory, discount calculations, and RAGAS evaluation. Powered by ChromaDB vector store and Groq's LLaMA3 with Streamlit interface.",
       color: "#FFE66D",
@@ -523,7 +520,7 @@ export default function Portfolio() {
                     letterSpacing: "2px",
                   }}
                 >
-                  {project.year} — {project.category}
+                  {project.category}
                 </div>
                 <h3
                   style={{
@@ -815,7 +812,7 @@ export default function Portfolio() {
           color: "#666",
         }}
       >
-        <div>© 2024 Bee024. All rights reserved.</div>
+        <div>© Bee024. All rights reserved.</div>
         <div>Building systems that matter · Bhubaneswar, India</div>
       </footer>
     </div>
